@@ -306,7 +306,10 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
     font-family: calibri;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding: 50px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 60px;
@@ -365,6 +368,9 @@ ul li a:hover{
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
     font-family: calibri;
     margin-top: 20px;
+    padding: 50px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 60px;
@@ -422,7 +428,10 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
     font-family: calibri;
-    margin-top: 200px;
+    margin-top: 92px;
+    padding: 50px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 80px;
