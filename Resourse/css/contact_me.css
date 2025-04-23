@@ -222,7 +222,7 @@ ul li a:hover{
 .contact_me_section{
   height: auto;
   width: 100%;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 50px;
 }
 .contact_me_section .contact_me_section_title{
@@ -241,37 +241,45 @@ ul li a:hover{
   height: auto;
   width: 60%;
   margin: auto;
-  padding-bottom: 25px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
-  gap: 50px;
+  gap: 20px;
+  padding-top: 50px;
 }
 .contact_me_section .contact_me_section_content .contact_me_section_content_box{
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 10px;
+  margin-bottom: 22px;
   font-family: calibri;
-  margin-top: 200px;
 }
 .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
   height: 80px;
   width: 80px;
-  background-color: blue;
-  border-radius: 50%;
+  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  border-radius: 50%;
 }
 .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
+  color: #000000;  
   font-size: 30px;
-  color: #fff;
 }
 .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
+  color: #fff;
+  margin: 10px 0; 
   font-size: 25px;
   text-align: center;
-  margin: 20px 0;
   font-weight: 600;
 }
 .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
+  color: #eee;
   font-size: 20px;
   text-align: center;
 }
@@ -298,44 +306,47 @@ ul li a:hover{
     height: auto;
     width: 90%;
     margin: auto;
-    padding-bottom: 10px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    gap: 10px;
+    gap: 0px;
+    padding-top: 50px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
-    font-family: calibri;
-    margin-top: 30px;
-    padding: 50px 0;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border-radius: 10px;
+    margin-bottom: 22px;
+    font-family: calibri;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 60px;
     width: 60px;
     background-color: yellow;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    border-radius: 50%;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
+    color: #000000;  
     font-size: 20px;
-    color: #000000;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
-    font-size: 20px;
-    text-align: center;
-    margin: 10px 0;
-    font-weight: 600;
     color: #fff;
-  }
-  .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
+    margin: 10px 0; 
     font-size: 16px;
     text-align: center;
+    font-weight: 600;
+  }
+  .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
     color: #eee;
+    font-size: 16px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px){
@@ -347,7 +358,7 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_title{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     height: auto;
     width: 90%;
@@ -361,51 +372,54 @@ ul li a:hover{
     height: auto;
     width: 90%;
     margin: auto;
-    padding-bottom: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 10px;
+    padding-top: 50px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
-    font-family: calibri;
-    margin-top: 20px;
-    padding: 50px 0;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border-radius: 10px;
+    margin-bottom: 22px;
+    font-family: calibri;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     background-color: yellow;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    border-radius: 50%;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
-    font-size: 20px;
-    color: #000000;
+    color: #000000;  
+    font-size: 25px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
-    font-size: 20px;
-    text-align: center;
-    margin: 15px 0;
-    font-weight: 600;
     color: #fff;
+    margin: 10px 0; 
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
-    font-size: 13px;
-    text-align: center;
     color: #eee;
+    font-size: 18px;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1200px){
   .contact_me_section{
     height: auto;
     width: 100%;
-    margin-top: 150px;
+    margin-top: 120px;
     margin-bottom: 50px;
   }
   .contact_me_section .contact_me_section_title{
@@ -424,46 +438,50 @@ ul li a:hover{
     height: auto;
     width: 60%;
     margin: auto;
-    padding-bottom: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    gap: 50px;
+    gap: 20px;
+    padding-top: 50px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
-    font-family: calibri;
-    margin-top: 92px;
-    padding: 50px 0;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: blue;
     border-radius: 10px;
+    margin-bottom: 22px;
+    font-family: calibri;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 80px;
     width: 80px;
     background-color: yellow;
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    border-radius: 50%;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
+    color: #000000;  
     font-size: 30px;
-    color: #000000;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
+    color: #fff;
+    margin: 10px 0; 
     font-size: 25px;
     text-align: center;
-    margin: 20px 0;
     font-weight: 600;
-    color: #fff;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
+    color: #eee;
     font-size: 20px;
     text-align: center;
-    color: #eee;
   }
 }
+
 /*contact section end*/
 
 /*footer section start*/
