@@ -308,13 +308,13 @@ ul li a:hover{
     font-family: calibri;
     margin-top: 30px;
     padding: 50px 0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: blue;
     border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 60px;
     width: 60px;
-    background-color: blue;
+    background-color: yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -323,17 +323,19 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
     font-size: 20px;
-    color: #fff;
+    color: #000000;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
     font-size: 20px;
     text-align: center;
     margin: 10px 0;
     font-weight: 600;
+    color: #fff;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
     font-size: 16px;
     text-align: center;
+    color: #eee;
   }
 }
 @media screen and (min-width: 768px){
@@ -369,13 +371,13 @@ ul li a:hover{
     font-family: calibri;
     margin-top: 20px;
     padding: 50px 0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: blue;
     border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 60px;
     width: 60px;
-    background-color: blue;
+    background-color: yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -384,17 +386,19 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
     font-size: 20px;
-    color: #fff;
+    color: #000000;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
     font-size: 20px;
     text-align: center;
     margin: 15px 0;
     font-weight: 600;
+    color: #fff;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
     font-size: 13px;
     text-align: center;
+    color: #eee;
   }
 }
 @media screen and (min-width: 1200px){
@@ -430,13 +434,13 @@ ul li a:hover{
     font-family: calibri;
     margin-top: 92px;
     padding: 50px 0;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: blue;
     border-radius: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon{
     height: 80px;
     width: 80px;
-    background-color: blue;
+    background-color: yellow;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -445,17 +449,19 @@ ul li a:hover{
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_icon i{
     font-size: 30px;
-    color: #fff;
+    color: #000000;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_title{
     font-size: 25px;
     text-align: center;
     margin: 20px 0;
     font-weight: 600;
+    color: #fff;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box .contact_me_section_content_box_sub_title{
     font-size: 20px;
     text-align: center;
+    color: #eee;
   }
 }
 /*contact section end*/
