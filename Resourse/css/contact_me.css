@@ -302,7 +302,7 @@ ul li a:hover{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
-    gap: 50px;
+    gap: 10px;
   }
   .contact_me_section .contact_me_section_content .contact_me_section_content_box{
     font-family: calibri;
