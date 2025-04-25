@@ -13,10 +13,10 @@
   background: #eee;
 }
 ::-webkit-scrollbar-thumb{
-  background: orange;
+  background: blue;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: blue;
+  background: green;
 }
 html{
   scroll-behavior: smooth;
