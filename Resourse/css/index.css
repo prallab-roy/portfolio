@@ -425,6 +425,7 @@ ul li a:hover{
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
     background-color: green;
+    color: #fff;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -551,6 +552,7 @@ ul li a:hover{
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
     background-color: green;
+    color: #fff;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -674,6 +676,7 @@ ul li a:hover{
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
     background-color: green;
+    color: #fff;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -692,7 +695,7 @@ ul li a:hover{
     height: 100%;
     width: 100%;
     border-radius: 0;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
   }
   .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2{
