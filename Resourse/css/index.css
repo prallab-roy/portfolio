@@ -450,12 +450,14 @@ ul li a:hover{
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    display: block;
   }
   .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2 img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    display: block;
   }  
 }
 @media screen and (min-width: 768px){
@@ -574,12 +576,14 @@ ul li a:hover{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    display: block;
   }
   .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2 img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    display: block;
   }
 }
 @media screen and (min-width: 1200px){
