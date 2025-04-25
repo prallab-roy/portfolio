@@ -330,7 +330,7 @@ ul li a:hover{
   object-fit: cover;
 }
 @media screen and (min-width: 300px){
-  main{
+ main{
     height: auto;
     width: 100%;
     background-color: #000000;
@@ -424,7 +424,7 @@ ul li a:hover{
     border-radius: 10px;
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
-    background-color: orange;
+    background-color: green;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -433,21 +433,33 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1{
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    display: none;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image img{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1 img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
-  } 
+    display: none;
+  }
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }  
 }
-
 @media screen and (min-width: 768px){
-  main{
+   main{
     height: auto;
     width: 100%;
     background-color: #000000;
@@ -483,7 +495,7 @@ ul li a:hover{
     font-family: calibri;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #fff;
+    color: #000000;
     text-align: center;
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_title_3{
@@ -536,7 +548,7 @@ ul li a:hover{
     border-radius: 10px;
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
-    background-color: orange;
+    background-color: green;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -545,17 +557,30 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1{
     height: 300px;
     width: 300px;
     border-radius: 50%;
+    display: none;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image img{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1 img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     object-fit: cover;
+    display: none;
   } 
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+  }
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }
 @media screen and (min-width: 1200px){
   main{
@@ -644,7 +669,7 @@ ul li a:hover{
     border-radius: 10px;
   }
   .hero_section .hero_section_content .hero_section_content_left .hero_section_content_left_btns .hero_section_content_left_btns_right_btn a:hover{
-    background-color: orange;
+    background-color: green;
     transition: 2s;
   }
   .hero_section .hero_section_content .hero_section_content_right{
@@ -653,17 +678,32 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1{
     height: 500px;
     width: 100%;
     border-radius: 0;
+    display: block;
   }
-  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image img{
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_1 img{
     height: 100%;
     width: 100%;
     border-radius: 0;
-    object-fit: cover;
-  } 
+    object-fit: contain;
+    display: block;
+  }
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2{
+    height: 500px;
+    width: 100%;
+    border-radius: 0;
+    display: none;
+  }
+  .hero_section .hero_section_content .hero_section_content_right .hero_section_content_right_image_2 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+    object-fit: contain;
+    display: none;
+  }
 }
 
 /*hero section end*/
