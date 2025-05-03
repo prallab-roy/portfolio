@@ -15,3 +15,17 @@ icon.addEventListener("click", ()=>{
 })
 
 /*header navigation section end*/
+
+/*preloader section start*/
+
+document.body.classList.add('loading');
+window.addEventListener('load', function () {
+  const preloader = document.getElementById('preloader');
+  preloader.style.opacity = '0'; // Fade out the preloader
+  setTimeout(() => {
+    preloader.style.display = 'none';
+    document.body.classList.remove('loading');
+  }, 500);
+});
+
+/*preloader section end*/
