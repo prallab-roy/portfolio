@@ -29,3 +29,17 @@ window.addEventListener('load', function () {
 });
 
 /*preloader section end*/
+
+/*pageloader section start*/
+
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.getElementById('loader').classList.remove('hidden');
+    setTimeout(() => {
+      window.location.href = this.href;
+    }, 1200); 
+  });
+});
+
+/*pageloader section end*/
